@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Replace with actual font if different */
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Text color */
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background: #4a90e2; /* Example header background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px; /* Maximum width for sections */
+    background: white;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Button Styles */
+button {
+    background: #4a90e2; /* Button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #357ab8; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* Projects Section */
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background for project boxes */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: #007acc; /* Change color for project titles */
+}
+
+.project p {
+    margin: 5px 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4a90e2; /* Link color */
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
